@@ -22,7 +22,6 @@ class EvaluationReport:
         os.makedirs(REPORT_STORAGE_DIR, exist_ok=True)
         with open(report_path, 'w') as f:
             json.dump(self.report, f)
-    
     def to_json(self):
         """Return the evaluation report as a JSON-serializable dict."""
         return self.report

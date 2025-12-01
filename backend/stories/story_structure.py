@@ -20,6 +20,7 @@ class StoryStructure:
         }
         self.segments.append(segment)
     
+    #The following utility functions were drafted by Cursor (Claude) with clear specification on what functionality was needed.
     def find_segment_index(self, segment_title: str) -> int:
         """Find segment index by title."""
         for i, seg in enumerate(self.segments):

@@ -49,7 +49,7 @@ async def generate_story(topic: str):
 async def list_stories():
     """List all saved stories from JSON storage."""
     try:
-        storage_dir = "stories/json_storage"
+        storage_dir = "backend/stories/json_storage"
         stories = []
         if os.path.exists(storage_dir):
             for filename in os.listdir(storage_dir):
@@ -72,7 +72,7 @@ async def list_stories():
 async def get_story(filename: str):
     """Get a specific story by filename."""
     try:
-        filepath = os.path.join("stories/json_storage", filename)
+        filepath = os.path.join("backend/stories/json_storage", filename)
         if not os.path.exists(filepath):
             raise HTTPException(status_code=404, detail="Story not found")
         with open(filepath, 'r') as f:

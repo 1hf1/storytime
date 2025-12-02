@@ -21,4 +21,4 @@ npm install
 '''
 
 ## Step 5: Add backend API keys
-Since OpenAI immediately revokes publicly shared keys, you may need to add a new OPENAI_API_KEY to the backend/.env file. You can generate a new key by visiting https://platform.openai.com/account/api-keys. You may also need to add a new PERPLEXITY_API_KEY to the backend/.env file. You can generate a new key by visiting perplexity AI and going to your account settings, and then accessing the 'API' tab. 
+Since OpenAI immediately revokes publicly shared keys, you may need to add a new OPENAI_API_KEY to .env file. You can generate a new key by visiting https://platform.openai.com/account/api-keys. You may also need to add a new PERPLEXITY_API_KEY to the backend/.env file. You can generate a new key by visiting perplexity AI and going to your account settings, and then accessing the 'API' tab. Put both of these keys in the .env file before beginning the quickstart.

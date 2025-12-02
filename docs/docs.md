@@ -1,0 +1,2 @@
+Docstrings are proivded through individual functions and files, no over-arching documentation is provided here. See the Technical Walkthrough
+for implementation details and the SETUP.md and Quickstart section in the README to get started with StoryTime.
